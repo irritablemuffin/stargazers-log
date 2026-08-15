@@ -10,9 +10,17 @@
 	<div class="container">
 		<h1>Stargazer's Log</h1>
     <p>A log of the repositories I've starred.</p>
-		<div id="repos">Loading repositories…</div>
+
+    <!-- Make this a live region and indicate busy state while loading -->
+    <div id="repos" role="status" aria-live="polite" aria-busy="true">
+      Loading repositories…
+    </div>
+
+    <noscript>
+      <p class="noscript-warning">This page needs JavaScript to load the repository list. Please enable JavaScript.</p>
+    </noscript>
 	</div>
+
 	<script src="script.js"></script>
 </body>
 </html>
-
