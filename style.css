@@ -1,4 +1,48 @@
-:root{
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #f8f9fb;
+  color: #0f1720;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.repo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.repo-item {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.repo-name {
+  font-weight: 600;
+  color: #0b63c4;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+.repo-desc {
+  margin-top: 0.4rem;
+  color: #334155;
+  font-size: 0.95rem;
+}
+.repo-meta {
+  margin-top: 0.6rem;
+  color: #6b7280;
+  font-size: 0.85rem;
+}:root{
   --bg:#f6f8fa;
   --card:#ffffff;
   --muted:#586069;
