@@ -6,7 +6,7 @@
     "owner": { "login": "discourse" },
     "description": "The 100% open source discussion platform built for the next decade of the Internet.",
     "stargazers_count": 90000,
-    "html_url": "https://github.com/discourse",
+    "html_url": "https://github.com/discourse/discourse",
     "starred_at": "2026-08-14T12:00:00Z"
   },
   {
@@ -16,8 +16,7 @@
     "owner": { "login": "llamastash" },
     "description": "A fast terminal native app (TUI) and CLI with init wizard for launching local LLMs with zero overhead.",
     "stargazers_count": 60000,
-    "html_url": "https://github.com/llamastash",
+    "html_url": "https://github.com/llamastash/llamastash",
     "starred_at": "2026-07-30T09:15:00Z"
   }
 ]
-
